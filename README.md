@@ -53,3 +53,5 @@ This repository contains five Python projects, each showcasing the practical use
 **Expected Output:**
 
     Valid plate.
+
+Feel free to fork or clone this repository and contribute to these problem sets by adding more scenarios or enhancing the existing ones.
