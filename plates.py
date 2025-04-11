@@ -24,9 +24,9 @@ def is_valid(plate):
 
         # check if the character is a digit
         if char.isdigit():  
-
-            # Check the first digit isn't 0
-            if not number_started:
+          
+            if not number_started: # To change the flag to True when a digit is found
+                # Check the first digit isn't 0
                 if char == "0":
                     return False
                 number_started = True # update the flag to True once a digit is found
